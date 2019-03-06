@@ -19,11 +19,11 @@ if tamanhoListaJson:
     for x in listaJson:
         if usuaria_samantha in x['username']:
             email_usuaria_samantha = (x['email'])
-            
+
     for z in listaJsonLoc:
         if float(z['address']['geo']['lat']) < 0:
-            total_usuarios_hem_sul += 1            
-            
+            total_usuarios_hem_sul += 1
+
 print('1) Os websites de todos os usuários:')
 print(listaWebsitesUsuarios)
 print('2) O email da usuária que possui o campo username igual a "Samantha":')
